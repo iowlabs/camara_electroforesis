@@ -489,7 +489,7 @@
       "plot": "FabFile_fuente/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "output_files/fuente_regulable.step",
       "svg": "",
       "vrml": ""
     },
