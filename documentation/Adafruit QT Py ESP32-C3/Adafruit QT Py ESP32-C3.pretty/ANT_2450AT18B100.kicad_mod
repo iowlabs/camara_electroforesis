@@ -1,0 +1,218 @@
+(footprint "ANT_2450AT18B100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.54 0.127 0)
+		(layer "F.SilkS")
+		(uuid "b155cfca-2a0f-4437-b9d2-f7672c682999")
+		(effects
+			(font
+				(size 0.666496 0.666496)
+				(thickness 0.146304)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "ANT_2450AT18B100"
+		(at 2.54 0.635 0)
+		(layer "F.Fab")
+		(uuid "210fcdd4-91d1-471f-8fa7-05eab001126a")
+		(effects
+			(font
+				(size 0.36576 0.36576)
+				(thickness 0.04064)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53556b8b-2ddf-4df6-980b-6b8202600c55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "419ce7f3-04d7-4df0-998b-6be591a86deb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79500f90-b43f-4150-9ebe-06ec967e0475")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.4 -1.1)
+		(end 2.4 -1.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "B.Paste")
+		(uuid "76d48958-48d3-47e4-b2a4-8d427e8380a9")
+	)
+	(fp_line
+		(start -2.4 1.1)
+		(end -2.4 -1.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "B.Paste")
+		(uuid "8294b1e0-62dc-4dfb-9743-6acbd19ab610")
+	)
+	(fp_line
+		(start 2.4 -1.1)
+		(end 2.4 1.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "B.Paste")
+		(uuid "8ec3f0b9-fae2-4216-bc2a-833d60df0b30")
+	)
+	(fp_line
+		(start 2.4 1.1)
+		(end -2.4 1.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "B.Paste")
+		(uuid "1048ef66-082b-43b7-871e-2d9a5670067e")
+	)
+	(fp_line
+		(start -2.473 -0.983)
+		(end 2.473 -0.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d6054fc-1480-41b4-9da7-d4e8f4154201")
+	)
+	(fp_line
+		(start -2.473 0.983)
+		(end -2.473 -0.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6fe49cbc-a8ec-4b6c-9b41-bfd283e36d7c")
+	)
+	(fp_line
+		(start 2.473 -0.983)
+		(end 2.473 0.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1754e66-9511-48af-a7ae-d3441012311a")
+	)
+	(fp_line
+		(start 2.473 0.983)
+		(end -2.473 0.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92aa8c1b-caaa-49d4-b4db-f7ac9a4bc56e")
+	)
+	(fp_line
+		(start -0.965 -0.787)
+		(end 0.965 -0.787)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74c8aa7c-4312-4795-8fbc-8ba9dc0fdceb")
+	)
+	(fp_line
+		(start -0.965 0.787)
+		(end 0.965 0.787)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1113ce2-3b44-4fef-817e-6a3c13852235")
+	)
+	(fp_poly
+		(pts
+			(xy -1.7018 0.8509) (xy -0.9517 0.8509) (xy -0.9517 -0.8491) (xy -1.7018 -0.8491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "4f4be250-2629-4254-9791-f97147af39dc")
+	)
+	(fp_poly
+		(pts
+			(xy -0.8 0.3) (xy 0.1 0.3) (xy 0.1 -0.3) (xy -0.8 -0.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "f8bfd4b2-5209-4506-98fe-7555fcfefcce")
+	)
+	(fp_poly
+		(pts
+			(xy 0.9517 0.8491) (xy 1.7018 0.8491) (xy 1.7018 -0.8509) (xy 0.9517 -0.8509)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "96855a6d-8fda-49b5-9ecd-1655a4afd0e1")
+	)
+	(pad "FP" smd rect
+		(at -1.4 0)
+		(size 1.6 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "98976404-5c75-4b36-92fb-900f67704891")
+	)
+	(pad "NC" smd rect
+		(at 1.4 0)
+		(size 1.6 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "74b16d42-b23e-4947-ad34-5b2b44280e47")
+	)
+)
