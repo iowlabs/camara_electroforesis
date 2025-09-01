@@ -1,6 +1,11 @@
 # Cámara electroforésis
 
+
+
 Este proyecto tiene como objetivo el diseño de una cámara de electroforesis de bajo costo y fácil acceso, ideal para entornos educativos, laboratorios escolares,  iniciativas de ciencia ciudadana, equipamientos de bajo costo o laboratorios portátiles. El sistema completo incluye tanto la cámara donde se realiza la separación de moléculas como una fuente de poder casera que permite aplicar el voltaje necesario para el experimento.
+
+![Cámara de electróforesis](https://github.com/iowlabs/camara_electroforesis/blob/main/documentation/imagenes/top_1.jpeg)
+
 El diseño y la implementación de este proyecto están fuertemente inspirados en la documentación proporcionada por IORodeo, quienes han compartido detalladamente cómo construir sistemas de electroforesis caseros. En particular, se han seguido y adaptado los siguientes recursos:
 
 - [Cámara de electroforesis - Instructables](https://www.instructables.com/Gel-electrophoresis-system-mini/)
