@@ -87,9 +87,9 @@ Para el casing, los archivos se encuentran en la carpeta de modelos 3D.
 
 | Pieza 	| Material | Archivo |
 | --------- | -------- | ------- |
-| Tapa superior   	|  PLA   | [fure_tapa.step](https://github.com/iowlabs/camara_electroforesis/blob/main/3d%20models/tank_v2.stl) |
-| Cara frontal		| PLA | [fure_cara.step](https://github.com/iowlabs/camara_electroforesis/blob/main/3d%20models/tapa_v2.stl) |
-|  Base		| PLA | [fure_base.step](https://github.com/iowlabs/camara_electroforesis/blob/main/3d%20models/tapa_v2.stl) |
+| Tapa superior   	|  PLA   | [fure_tapa.step](https://github.com/iowlabs/camara_electroforesis/blob/main/3d%20models/fure_tapa.step) |
+| Cara frontal		| PLA | [fure_cara.step](https://github.com/iowlabs/camara_electroforesis/blob/main/3d%20models/fure_cara.step) |
+|  Base		| PLA | [fure_base.step](https://github.com/iowlabs/camara_electroforesis/blob/main/3d%20models/fure_base.step) |
 
 ### BOM de PCB
 La lista de los componentes se encuentra disponible en el archivo BOM  [fuente_regulable_bom.csv](https://github.com/iowlabs/camara_electroforesis/blob/main/electronics/fuente_regulable/output_files/fuente_regulable_bom.csv), como referencia se consideran de LCSC.
