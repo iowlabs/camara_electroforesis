@@ -9,40 +9,44 @@ El diseño y la implementación de este proyecto están fuertemente inspirados e
 
 Este repositorio prone un nuevo diseño orientado a consolidar y empaquetar el proceso de fabricación de los componentes por medio de nuevos diseños basados principalmente en impresión 3D. De este modo se consolida la información, archivos de diseño, materiales necesarios y las mejoras propuestas por iow Labs con la intención de facilitar la replicabilidad y su uso por parte de otras personas o instituciones interesadas en el uso de tecnologías abiertas en la ciencia.
 
-## Cámara
+---
 
-En este diseño se propone un modelo de cámara impreso totalmente en PLA como una pieza continua. De este modo se facilita el proceso de fabricación evitando trabajar con acrílico y las complicaciones que esto implica.
-### Materiales
+# Cámara
 
-Para la fabricación de esta cámara se necesitan los siguientes componentes
+En este diseño se propone un modelo de cámara impreso totalmente, como una pieza continua. De este modo, se facilita el proceso de fabricación evitando trabajar con acrílico y las complicaciones que esto implica.
 
-1
-Cámara
-Impreso en pla
-disponible en este cámara .step
-1
-Peine
-Impreso en pla
-disponible en peine.step
-2
-Conectores banana tipo Macho de panel
-1
-Cable de platino de 0,1’’
-Como alternativa puede cambiarse por acer inoxidable
 
-1
-Plancha de acrílico
-Tapa superior- corte laser
-disponible en tapasuperior.step
+## Materiales
+
+Los tanques para la electróforesis habitualmente se fabrican con acrílico, sin embargo el proceso de cortado y pegado suele ser dificil de gestionar ya que requiere habilidades manuales princilamnte debido a que involucra la manipulación de cloroformo.
+
+Para evitar esto, se implementó una alternativa basada en impresión 3D. Para replicar las características del acrílico se evaluaron diferentes materialidades y metodologías. Finalmente, se optó por imprimir el cuerpo del tanque en PETG para garantizar el buen desempeño en altas temperaturas y para garantizar la impermeabilidad, se optó por aplicarle una capa de resina epoxyca al interior. La tapa se realiza en un solo corte acrílico, para garantizar la transparencia.   
 
 
 
+| Pieza 	| Material | Archivo |
+| --------- | -------- | ------- |
+| Tanque   	|  PETG    | tanque_V2.stl |
+| Tapa		| Acrílico | tapa_V2.stl |
+
+### Instrucciones de fabricación
 
 
 
+## Lista de materiales
+
+| N    | Componente 	| Cantidad | Comentario |
+|------|----------------|----------|------------|
+| 1    | Tanque         |  1       |            |
+| 2    | Tapa           |  1       |            |
+| 3    | Conectores banana     |  2   | Tipo macho |
+| 4    | Electrodos de pt |  2   | arpox 20cm de cable de 0.01'' de platino           |
 
 
+## Instrucciones de armado
 
+
+---
 
 ## Fuente de poder
 Para implementar la fuente se diseñó una PCB que integre los componentes considerando en su mayoría componentes SMD. Esta PCB consiste en la implementación de un conversor DC/DC del tipo chopper bust. Este diseño se basa en el integrado MAX117 y la topología utilizada se encuentra detallada en los siguientes documentos 3,4,5
